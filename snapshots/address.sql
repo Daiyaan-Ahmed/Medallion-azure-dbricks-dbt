@@ -4,7 +4,8 @@
 {{
     config(
       file_format = "delta",
-      location_root = "/mnt/silver/address",
+      location_root = "abfss://silver@yusparksa.dfs.core.windows.net/silver/snapshots/
+",
       target_schema='snapshots',
       invalidate_hard_deletes=True,
       unique_key='AddressID',

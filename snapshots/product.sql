@@ -3,7 +3,7 @@
 {{
     config(
       file_format = "delta",
-      location_root = "/mnt/silver/product",
+      location = "/mnt/silver/product",
 
       target_schema='snapshots',
       invalidate_hard_deletes=True,

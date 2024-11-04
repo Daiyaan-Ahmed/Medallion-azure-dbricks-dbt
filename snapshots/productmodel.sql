@@ -3,7 +3,7 @@
 {{
     config(
       file_format = "delta",
-      location_root = "/mnt/silver/productmodel",
+      location = "/mnt/silver/productmodel",
       target_schema='snapshots',
       invalidate_hard_deletes=True,
       unique_key='ProductModelID',
